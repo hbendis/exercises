@@ -1,0 +1,25 @@
+body {
+  background-color: #111;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1 {
+  text-align: center;
+  margin-top: 250px;
+  font: 40px 'Gloria Hallelujah';
+  color: red;
+  text-shadow: 2px 1px 1px #fffaff; }
+
+#timer {
+  color: #a3ef10;
+  font-family: 'Archivo Narrow', serif;
+  font-size: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 3px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-shadow: 3px 3px 0 rgba(50, 50, 50, 0.5); }
+
