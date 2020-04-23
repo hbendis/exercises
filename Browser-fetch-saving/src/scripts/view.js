@@ -3,6 +3,7 @@ class View {
         constructor() {
             this.moviesSection = document.querySelector(".movies");
         }
+<<<<<<< HEAD
         displayMovieOnPage(data) {
             if (data.Response === "False") {
                 alert("Sorry, we can't find this movie!");
@@ -23,3 +24,11 @@ class View {
             this.moviesSection.innerHTML = "";
         }
     }
+=======
+    }
+    removeDisplay() {
+        this.moviesSection.innerHTML = "";
+    }
+}
+export { View }
+>>>>>>> bc113b5484ecc7f51da1bc1d22f504f7c9ba48f7
